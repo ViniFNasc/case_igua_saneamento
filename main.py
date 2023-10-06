@@ -200,8 +200,8 @@ st.write('1.	O que faz alguém ter um score maior ou menor?')
 st.write("""
         O score é influenciado pelas variáveis a seguir:
          
-            - Proporcional: idade do cliente, idade do histórico do cartão e comportamento de pagamento 
-            - Inversamente Proporcional: quantidade de contas bancárias, quantidade de cartões de crédito, \nquantidade de empréstimo, quantidade de dias de atraso para o pagamento, variação percentual do limite do cartão, quantidade de consultas no cartão, dívida restante a ser paga e o \npagamento mínimo da parcela.
+            - Proporcional: Idade do cliente, idade do histórico do cartão e comportamento de pagamento 
+            - Inversamente Proporcional: quantidade de contas bancárias, quantidade de cartões de crédito, quantidade de empréstimo, quantidade de dias de atraso para o pagamento, variação percentual do limite do cartão, quantidade de consultas no cartão, dívida restante a ser paga e o pagamento mínimo da parcela.
         
         """)
 
@@ -218,7 +218,7 @@ st.write("""
 
 st.write('4.	Que tipos de clientes são mais propensos a ficarem inadimplentes?')
 st.write("""
-        Os clientes mais propensos a ficarem inadimplentes são os que possuem maiores dívidas a serem pagas (Outstanding_Debt) e as variáveis que influencia positivamente essa variável são:
+        Os clientes mais propensos a ficarem inadimplentes são os que possuem maiores dívidas a serem pagas (Outstanding_Debt) e as variáveis que influenciam positivamente essa variável são:
 
             - Quantidade de contas bancárias
             - Quantidade de cartões de créditos
@@ -227,7 +227,7 @@ st.write("""
             - Variação percentual no limite do cartão de crédito
             - Quantidade de consultas de cartão de crédito
 
-        Portanto, as pessoas mais provavéis de de ficarem inadimplentes são aquelas que possuem maiores quantidade de contas bancárias, cartões de créditos, empréstimos, dias de atraso do pagamento, variação do limite do cartão e consultas de cartão.
+        Portanto, as pessoas prováveis de ficarem inadimplentes são aquelas que possuem maiores quantidade de contas bancárias, cartões de créditos, empréstimos, dias de atraso do pagamento, variação do limite do cartão e consultas de cartão.
         """)
 
 st.write('5.	Qual informação mais influência no score?')
@@ -235,6 +235,7 @@ st.write("""
         A Coluna Outstanding_Debt (dívida restante a ser paga) é o que mais influencia o Score
         """)
 
-
-
+st.subheader('Embora a quantidade tenha sido desafiadora, consegui concluir a entrega de mais um projeto.')
+st.subheader('Espero que o time de Administração faça bom uso deste modelo :)')
+st.write('Para mais detalhes o link do GitHub: https://github.com/ViniFNasc/case_igua_saneamento')
 
